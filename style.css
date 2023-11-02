@@ -1,0 +1,327 @@
+*{ 
+    margin: 0px; padding: 0px;
+}
+
+.links{ /*to make the link inline*/
+    display:inline;
+}
+
+.Backdrop{ /*to set the height and the color*/
+    background-color: #ffe5ec;
+    height: 100vh;
+}
+.Backdrop2{ /*to set the height and the color*/
+    background-color:#E9EDC9;
+    height: 150vh;
+}
+.footer3{ /* I have like 3 footers because I wanted to make it like a reverse watermelon something*/
+   position: fixed;
+    bottom: 0vh;
+    left: 0vw;
+    background-color:#CCD5AE;
+    border: black solid 1px;
+    height: 9vh;
+    width: 100vw;
+    
+}
+
+#navbar{ /*for the navbar*/
+    height: 8vh;
+    width: 100vw;
+    border: 1px solid black;
+    text-align: right;
+    background-color:#FFC2D1 ;
+    text-shadow: black;
+    margin-left: 0%;
+}
+
+.Home{ /*for the links on my navbar. played with margin and padding for the positioning*/
+    margin: 5px;
+    padding: 11px; 
+    display: inline-flex;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.SB{ /*for the links on my navbar. played with margin and padding for the positioning*/
+    margin: 5px;
+    padding: 11px; 
+    display: inline-flex;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.Study{ /*for the links on my navbar. played with margin and padding for the positioning*/
+    margin: 5px;
+    padding: 11px; 
+    display: inline-flex;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.Ref{ /*for the links on my navbar. played with margin and padding for the positioning*/
+    margin: 5px;
+    padding: 11px; 
+    display: inline-flex;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.Abt{ /*for the links on my navbar. played with margin and padding for the positioning*/
+    margin: 5px;
+    padding: 11px; 
+    display: inline-flex;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.links a :hover{opacity: .25; transition: .4s;}
+
+.logo{ /* my logo. i used to have a border here then i realized i didnt need it*/
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    left: 10vh;
+    width:40px;
+    height: 40px;
+}
+.Intro{
+    position: relative;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:inline;
+    margin: 85px;
+    padding:10px;
+    position: absolute;
+    left: 12.5vh; /*experimented with how these worked*/
+    right: 12.5vh;
+    height: 70vh;
+    
+    
+}
+.heading{
+    font-size:x-large;
+    font-weight: bolder;
+}
+
+.title{
+    display: inline;
+    color:#fb6f92;
+    font-family: cursive;
+}
+.font{
+    display: inline;
+    color:#c9184a;
+}
+
+.pic{
+    display:inline;
+    margin: 20vh;
+    padding:10px;
+    position: absolute;
+    left: 50vh;
+    right: 50vh;
+    height: 30px;
+
+}
+
+.sentence{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin:60vh;
+    padding:20px;
+    text-align:center;
+    
+    
+}
+
+.footer{
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    background-color: #FFC2D1;
+    border: black solid 1px;
+    height: 9vh;
+    width: 100vw;
+    
+}
+.credits{
+    padding: 10px;
+    margin: 10px;
+    color:white;
+    float:left;
+}
+
+.links2{
+    display:inline;
+    
+}
+.links2 a{
+    float:right;
+    text-decoration: none;
+    margin: 10px;
+    padding: 1px;
+    opacity: 1;
+    transition: .4s;
+    height:10px;
+    width: 50px;
+}
+.links2 a:hover{opacity: .25; transition: .4s;}
+
+#navbar2{ /* had to do dupes of each div because diff color each page*/
+    height: 8vh;
+    width: 100vw;
+    border: 1px solid black;
+    text-align: right;
+    background-color:#FFB3C6 ;
+    text-shadow: black;
+}
+.footer2{ /* had to do dupes of each div because diff color each page*/
+    position:absolute;
+    bottom: 0vh;
+    left: 0vw;
+    background-color:#FFB3C6;
+    border: black solid 1px;
+    height: 9vh;
+    width: 100vw;
+    
+}
+.logo2{/* had to do dupes of each div because diff color each page*/
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    left: 10vh;
+    width:40px;
+    height: 40px;;
+}
+
+#navbar3{ /* had to do dupes of each div because diff color each page*/
+    height: 8vh;
+    width: 100vw;
+    border: 1px solid black;
+    text-align: right;
+    background-color:#CCD5AE ;
+    text-shadow: black;
+}
+
+.logo3{ /* had to do dupes of each div because diff color each page*/
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    left: 10vh;
+    width:40px;
+    height: 40px;
+}
+
+
+.sulod img{ /*this is for my study background. experimented with the margins*/
+    height:50vh;
+    display: inline-block;
+    float: left;
+    margin-top:10vh;
+    margin-left: 5vh;
+}
+
+.sulod h1{ /*this is for my study background. experimented with the margins*/
+    margin-right: 50vh;
+    margin-top: 12vh;;
+    font-size: 5vh;
+    font-family: Georgia;
+    color: #FA1077;
+    margin-bottom: 5vh;;
+}
+
+.sulod p{ /*this is for my study background. experimented with the margins. i had to ask for help for this*/
+    font-size: 2.5vh; 
+    width: 40%; 
+    margin: auto; 
+    font-family: cormorant infant; 
+    
+}
+
+.SumS h1{ /*Summary Statistics header*/
+    color:#588157; 
+    float: left; 
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 4vh;
+    font-weight: bolder; 
+    right: 145vh;
+    height: 70vh;
+}
+
+.bodycontent1 img{ /*this thing simplified the chore job*/
+    display: flex;
+    justify-content: space-between;
+    flex: 5;
+    height:250px;
+    margin-top: 30px;
+    float: left;
+}
+
+.con h1{ /*conclusion header*/
+    color:#588157; 
+    margin-top: 50vh;
+    margin-right: 50vh;
+    padding-right: 100vh;
+    
+}
+
+.con p{ /*conclusion paragraph*/
+    font-size: 3vh;
+    margin-left: 2vw; 
+    margin-right: 28vw; 
+    text-align: justify; 
+    color: #588157; 
+    padding-left: 10vh;
+
+   
+   
+
+}
+.refer h1{ /*header for references*/
+    margin-top: 10vh;
+    font-size: 8vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #c9184a;
+}
+
+.refer ol{ /*organized list for the references*/
+    margin-left: 16vw;
+    margin-right: 17vw;
+    margin-top: 5vh;
+    font-size: 2vh;
+    text-align: justify;
+}
+
+.AbMe h1{ /*header for the About Me*/
+    margin-top: 10vh;
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #c9184a;
+}
+
+.AbMe img{
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AbMe ul{ /*my personal background and facts*/
+    margin-left: 16vw;
+    margin-right: 17vw;
+    margin-top: 5vh;
+    font-size: 2vh;
+    text-align: justify;
+}
